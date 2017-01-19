@@ -15,7 +15,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="22sp"
-            android:text="手机宽像素为：" />
+            android:text="手机宽像素为(pixel)：" />
         <TextView
             android:id="@+id/with"
             android:textSize="22sp"
@@ -34,7 +34,7 @@
             android:textSize="22sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="手机高像素为：" />
+            android:text="手机高像素为(pixel)：" />
         <TextView
             android:id="@+id/height"
             android:textSize="22sp"
@@ -73,11 +73,31 @@
             android:textSize="22sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="手机像素DPI为：" />
+            android:text="手机像素DPI为(dpi)：" />
         <TextView
             android:id="@+id/desitydpi"
             android:textSize="22sp"
 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+    >
+        <TextView
+            android:textSize="22sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="手机物理尺寸为(英寸)：" />
+        <TextView
+            android:id="@+id/physical_size"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="30dp"
+            android:textSize="22sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
